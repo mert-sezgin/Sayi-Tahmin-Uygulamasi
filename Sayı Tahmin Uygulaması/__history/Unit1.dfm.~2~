@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Align = alBottom
+  Caption = 'Say'#305' Tahmin Uygulamas'#305
+  ClientHeight = 165
+  ClientWidth = 525
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = '@Microsoft YaHei'
+  Font.Style = [fsBold]
+  WindowState = wsMinimized
+  TextHeight = 17
+  object Label1: TLabel
+    Left = 88
+    Top = 8
+    Width = 336
+    Height = 36
+    Alignment = taCenter
+    Caption = 'Say'#305' Tahmin Uygulamas'#305
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = '@Microsoft YaHei'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 71
+    Width = 193
+    Height = 26
+    Alignment = taCenter
+    Caption = 'Say'#305' Tahminininiz:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = '@Microsoft YaHei'
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 207
+    Top = 71
+    Width = 289
+    Height = 35
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clSilver
+    Font.Height = -20
+    Font.Name = '@Microsoft YaHei Light'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Tahmin etti'#287'iniz say'#305'y'#305' giriniz.'
+  end
+  object Button1: TButton
+    Left = 421
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 1
+  end
+end
